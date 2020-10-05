@@ -1,0 +1,18 @@
+/* line 1, /Applications/MAMP/htdocs/myya/assets/css/map.scss */
+path:hover {
+  fill: grey; }
+
+/* line 4, /Applications/MAMP/htdocs/myya/assets/css/map.scss */
+#path3353 {
+  fill: #333; }
+
+/* line 7, /Applications/MAMP/htdocs/myya/assets/css/map.scss */
+.hollow-man {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: red; }
+
+/*# sourceMappingURL=map.css.map */

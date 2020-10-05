@@ -1,0 +1,235 @@
+$body-width: 100%;
+$default-height: 400px;
+$default-color: #fff;
+$default-margin: 20px;
+@import "_afters.scss";
+.learn-header {
+    @extend .all_headers;
+    background-image: url(../img/myya_learn.jpg);
+    background-size: cover;
+    background-position: center;
+    .header-overlay {
+        @extend .all_headers_overlay;
+        position: relative;
+        .content {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 0;
+            right: 0;
+        }
+        .fa {
+            position: absolute;
+            bottom: 1rem;
+            left: 0;
+            right: 0;
+        }
+        h3 {
+            text-transform: uppercase;
+            color: $default-color;
+            font-size: 35px;
+            margin-bottom: 0;
+        }
+        h3:after {
+            width: 0;
+            height: 0;
+        }
+        h5 {
+            //text-transform: uppercase;
+            color: $default-color;
+            margin: 0;
+        }
+        .btn-click {
+            @extend .all_btns;
+            button {
+                background-color: black;
+                color: $default-color;
+                border: 2px solid $default-color;
+            }
+        }
+        .fa {
+            color: $default-color;
+            margin-top: 80px;
+            font-size: 30px;
+        }
+    }
+}
+
+section.change-bg {
+    background-image: url(../../img/myya_publish.jpg);
+}
+
+.learn-split {
+    height: $default-height - 200;
+    width: $body-width;
+    text-align: center;
+    margin: 40px 10px;
+    .split-left {
+        width: 50%;
+        height: 100%;
+        //margin-right: 20px;
+        //border: 1px solid black;
+        background-image: url(../../img/learning_picture.jpg);
+        background-size: cover;
+        background-position: top;
+        float: left;
+        .left-over {
+            @extend .all_headers_overlay;
+            opacity: .7;
+            padding-top: 0;
+        }
+    }
+    .split-right {
+        width: 50%;
+        height: 100%;
+        //margin-right: 20px;
+        padding: 70px 40px;
+        //border: 1px solid black;
+        float: right;
+        .right-header {
+            text-decoration: underline;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+        }
+    }
+}
+
+.lr-contact {
+    width: $body-width;
+    text-align: center;
+    h3 {
+        padding: 3rem 0 0;
+    }
+    h3:after {
+        width: 0;
+        height: 0;
+    }
+    form {
+        text-align: center;
+        margin: 0 auto;
+        .input {
+            text-align: center;
+            margin: 0 auto 1rem;
+        }
+        input[type=email] {
+            height: 50px;
+            width: 40%;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 20px;
+        }
+        button {
+            width: 20%;
+            height: 51px;
+            text-transform: uppercase;
+            background-color: #fff;
+            border: 1px solid black;
+            color: black;
+            font-weight: bolder;
+        }
+        button:hover {
+            background-color: black;
+            color: #fff;
+            font-weight: bolder;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    section.learn-header {
+        height: 400px;
+        padding-top: 0;
+        .header-overlay {
+            padding-top: 0;
+            h3 {
+                margin-top: 0;
+            }
+            .btn-click {
+                width: 80%;
+            }
+            .fa {
+                padding: 0;
+                margin-top: 30px;
+            }
+        }
+    }
+    section.other-lorem {
+        height: auto;
+        width: $body-width;
+        margin: 0;
+        padding: 0;
+        .lorem-header {
+            text-align: justify;
+        }
+    }
+    section.learn-split {
+        height: 500px;
+        width: $body-width;
+        .split-left,
+        .split-right {
+            float: none;
+            height: 250px;
+            width: 80%;
+            padding: 0;
+            margin: 0;
+            margin: 20px auto;
+            margin-left: 18px;
+        }
+    }
+    section.four-divs {
+        height: auto;
+        width: $body-width;
+        padding-top: 20px;
+        .first-div,
+        .second-div,
+        .third-div,
+        .fourth-div {
+            float: none;
+            height: 350px;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 10px;
+            //margin-right: 150px;
+            h3,
+            p,
+            button {
+                margin: 0;
+                padding: 0;
+                margin-right: 50px;
+            }
+            button {
+                background-color: black;
+                border: none;
+            }
+        }
+    }
+    section.lr-contact {
+        height: 300px;
+        width: $body-width;
+        form {
+            height: inherit;
+            width: $body-width;
+            margin: 0;
+            padding: 0;
+            .input {
+                height: 100px;
+                width: $body-width - 10%;
+                padding: 0;
+                margin: 0 auto;
+                input[type=email] {
+                    width: $body-width;
+                    height: 50px;
+                    margin-left: 0;
+                    margin: 0 auto;
+                }
+            }
+            button {
+                height: 55px;
+                width: $body-width - 20%;
+                margin: 0 auto;
+                padding: 0;
+            }
+        }
+    }
+}

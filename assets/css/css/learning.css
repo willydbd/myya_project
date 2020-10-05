@@ -1,0 +1,375 @@
+h3 {
+    color: black;
+    text-align: center;
+    font-weight: lighter;
+    padding-top: 20px;
+}
+
+h3:after {
+    content: "";
+    display: block;
+    text-align: center;
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    filter: grayscale(90%);
+    margin: 0 auto;
+}
+
+.fa {
+    color: #fff;
+}
+
+.all_headers,
+.learn-header {
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.all_headers_overlay,
+.learn-header .header-overlay,
+.learn-split .split-left .left-over {
+    padding-top: 150px;
+    height: inherit;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    opacity: .9;
+}
+
+.h3_nobtt {
+    border: none;
+}
+
+.three {
+    width: 100%;
+    height: 300px;
+    margin: 10px 50px;
+}
+
+.ones {
+    width: 30%;
+    height: inherit;
+    padding: 80px 5px;
+    float: left;
+}
+
+.all_btns,
+.learn-header .header-overlay .btn-click {
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.learn-header {
+    background-image: url(../../img/myya_learn.jpg);
+}
+
+.learn-header .header-overlay h3 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 35px;
+}
+
+.learn-header .header-overlay h3:after {
+    width: 0;
+    height: 0;
+}
+
+.learn-header .header-overlay h5 {
+    color: #fff;
+}
+
+.learn-header .header-overlay .btn-click button {
+    background-color: black;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.learn-header .header-overlay .fa {
+    color: #fff;
+    margin-top: 80px;
+    font-size: 30px;
+}
+
+section.change-bg {
+    background-image: url(../../img/myya_publish.jpg);
+}
+
+.other-lorem {
+    height: 600px -200;
+    width: 90%;
+    text-align: center;
+    margin: 10px 40px;
+    margin-bottom: 90px;
+}
+
+.other-lorem .lorem-header {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.learn-split {
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    margin: 40px 10px;
+}
+
+.learn-split .split-left {
+    width: 50%;
+    height: 100%;
+    background-image: url(../../img/learning_picture.jpg);
+    background-size: cover;
+    background-position: top;
+    float: left;
+}
+
+.learn-split .split-left .left-over {
+    opacity: .7;
+    padding-top: 0;
+}
+
+.learn-split .split-right {
+    width: 50%;
+    height: 100%;
+    padding: 70px 40px;
+    float: right;
+}
+
+.learn-split .split-right .right-header {
+    text-decoration: underline;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.four-divs {
+    height: 450px;
+    width: 100%;
+    margin-bottom: 20px;
+    color: #fff;
+    padding-left: 70px;
+    background-color: darkseagreen;
+    filter: grayscale(100%);
+}
+
+.four-divs .first-div,
+.four-divs .second-div,
+.four-divs .third-div,
+.four-divs .fourth-div {
+    height: inherit;
+    width: 22%;
+    color: #fff;
+    float: left;
+    text-align: center;
+    margin-right: 20px;
+    padding: 0;
+}
+
+.four-divs .first-div h3,
+.four-divs .second-div h3,
+.four-divs .third-div h3,
+.four-divs .fourth-div h3 {
+    font-size: 20px;
+    color: #fff;
+}
+
+.four-divs .first-div h3:after,
+.four-divs .second-div h3:after,
+.four-divs .third-div h3:after,
+.four-divs .fourth-div h3:after {
+    width: 0;
+    height: 0;
+}
+
+.four-divs .first-div p,
+.four-divs .second-div p,
+.four-divs .third-div p,
+.four-divs .fourth-div p {
+    text-align: justify;
+    font-size: 15px;
+    color: #fff;
+}
+
+.four-divs .first-div button,
+.four-divs .second-div button,
+.four-divs .third-div button,
+.four-divs .fourth-div button {
+    height: 50px;
+    width: 180px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.four-divs .first-div button:hover,
+.four-divs .second-div button:hover,
+.four-divs .third-div button:hover,
+.four-divs .fourth-div button:hover {
+    background-color: black;
+    color: #fff;
+    font-weight: bolder;
+    border: none;
+}
+
+.lr-contact {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.lr-contact h3:after {
+    width: 0;
+    height: 0;
+}
+
+.lr-contact form {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.lr-contact form .input {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.lr-contact form input[type=email] {
+    height: 50px;
+    width: 40%;
+    padding: 0 auto;
+    text-align: center;
+    margin-left: 400px;
+    font-size: 20px;
+}
+
+.lr-contact form button {
+    width: 20%;
+    height: 51px;
+    text-transform: uppercase;
+    background-color: #fff;
+    border: 1px solid black;
+    color: black;
+    font-weight: bolder;
+}
+
+.lr-contact form button:hover {
+    background-color: black;
+    color: #fff;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 600px) {
+    section.learn-header {
+        height: 400px;
+        padding-top: 0;
+    }
+    section.learn-header .header-overlay {
+        padding-top: 0;
+    }
+    section.learn-header .header-overlay h3 {
+        margin-top: 0;
+    }
+    section.learn-header .header-overlay .btn-click {
+        width: 80%;
+    }
+    section.learn-header .header-overlay .fa {
+        padding: 0;
+        margin-top: 30px;
+    }
+    section.other-lorem {
+        height: auto;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    section.other-lorem .lorem-header {
+        text-align: justify;
+    }
+    section.learn-split {
+        height: 500px;
+        width: 100%;
+    }
+    section.learn-split .split-left,
+    section.learn-split .split-right {
+        float: none;
+        height: 250px;
+        width: 80%;
+        padding: 0;
+        margin: 0;
+        margin: 20px auto;
+        margin-left: 18px;
+    }
+    section.four-divs {
+        height: auto;
+        width: 100%;
+        padding-top: 20px;
+    }
+    section.four-divs .first-div,
+    section.four-divs .second-div,
+    section.four-divs .third-div,
+    section.four-divs .fourth-div {
+        float: none;
+        height: 350px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+    section.four-divs .first-div h3,
+    section.four-divs .first-div p,
+    section.four-divs .first-div button,
+    section.four-divs .second-div h3,
+    section.four-divs .second-div p,
+    section.four-divs .second-div button,
+    section.four-divs .third-div h3,
+    section.four-divs .third-div p,
+    section.four-divs .third-div button,
+    section.four-divs .fourth-div h3,
+    section.four-divs .fourth-div p,
+    section.four-divs .fourth-div button {
+        margin: 0;
+        padding: 0;
+        margin-right: 50px;
+    }
+    section.four-divs .first-div button,
+    section.four-divs .second-div button,
+    section.four-divs .third-div button,
+    section.four-divs .fourth-div button {
+        background-color: black;
+        border: none;
+    }
+    section.lr-contact {
+        height: 300px;
+        width: 100%;
+    }
+    section.lr-contact form {
+        height: inherit;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    section.lr-contact form .input {
+        height: 100px;
+        width: 90%;
+        padding: 0;
+        margin: 0 auto;
+    }
+    section.lr-contact form .input input[type=email] {
+        width: 100%;
+        height: 50px;
+        margin-left: 0;
+        margin: 0 auto;
+    }
+    section.lr-contact form button {
+        height: 55px;
+        width: 80%;
+        margin: 0 auto;
+        padding: 0;
+    }
+}
+
+
+/*# sourceMappingURL=learning.css.map */

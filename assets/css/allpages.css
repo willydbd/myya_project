@@ -1,0 +1,380 @@
+/* line 2, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+.admin-info {
+  height: 590px;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: -40px;
+  margin-left: 90px; }
+  /* line 14, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+  .admin-info h3 {
+    text-align: center;
+    color: black;
+    filter: grayscale(50%);
+    margin-left: -90px; }
+  /* line 23, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+  .admin-info h3:after {
+    content: "";
+    display: block;
+    text-align: center;
+    width: 90px;
+    height: 4px;
+    background-color: black;
+    filter: grayscale(90%);
+    margin: 0 auto; }
+  /* line 33, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+  .admin-info .admin-image {
+    float: left;
+    height: 75%;
+    width: 49%;
+    background-image: url(../img/unnamed.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    z-index: 9999; }
+    /* line 49, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+    .admin-info .admin-image .admin-overlay {
+      height: 100%;
+      width: 100%;
+      filter: grayscale(50%);
+      opacity: .7; }
+  /* line 58, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+  .admin-info .admin-texts {
+    height: 75%;
+    width: 44%;
+    padding: 0 auto;
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 20px;
+    color: darkseagreen; }
+    /* line 67, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+    .admin-info .admin-texts .all-texts {
+      width: 100%;
+      height: 15%;
+      line-height: 30px;
+      font-size: 15px;
+      text-align: justify;
+      color: black; }
+      /* line 74, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+      .admin-info .admin-texts .all-texts > h5 {
+        width: 80%; }
+      /* line 79, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+      .admin-info .admin-texts .all-texts > .rounded {
+        border: 1px solid black;
+        width: 8%;
+        font-size: 19px;
+        height: 30px;
+        margin-right: 20px;
+        float: left;
+        text-align: center;
+        border-radius: 20px; }
+    /* line 90, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+    .admin-info .admin-texts .link-more {
+      width: 200px;
+      height: 50px;
+      color: black;
+      text-decoration: none;
+      border: 1px solid black;
+      text-align: center;
+      padding-top: 15px;
+      cursor: pointer;
+      border-radius: 20px; }
+      /* line 100, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+      .admin-info .admin-texts .link-more a {
+        text-align: center;
+        color: black; }
+    /* line 105, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+    .admin-info .admin-texts .link-more:hover {
+      background-color: black;
+      transition: .5s ease-in;
+      color: #fff; }
+      /* line 109, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+      .admin-info .admin-texts .link-more:hover a {
+        color: #fff;
+        font-weight: bolder; }
+
+/* line 117, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+section.our-team {
+  height: 500px;
+  width: 100%;
+  background-image: url(../img/myya_new_store.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  /* line 126, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+  section.our-team .ot-overlay {
+    height: inherit;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    padding-left: 70px;
+    padding-right: 40px;
+    padding-top: 50px; }
+    /* line 135, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+    section.our-team .ot-overlay h3 {
+      color: #fff;
+      text-align: center; }
+    /* line 140, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+    section.our-team .ot-overlay h3:after {
+      content: "";
+      display: block;
+      text-align: center;
+      width: 90px;
+      height: 4px;
+      background-color: #fff;
+      filter: grayscale(90%);
+      margin: 0 auto; }
+    /* line 150, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+    section.our-team .ot-overlay .person {
+      height: 300px;
+      width: 30%;
+      float: left;
+      padding-left: 80px;
+      z-index: 9999;
+      opacity: 1; }
+      /* line 157, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+      section.our-team .ot-overlay .person .per-img1 {
+        height: 200px;
+        width: 70%;
+        border: 1px dotted #fff;
+        background-image: url(../img/customer2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+        border-radius: 100%;
+        z-index: 9999;
+        opacity: 1; }
+      /* line 170, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+      section.our-team .ot-overlay .person .per-img2 {
+        height: 200px;
+        width: 70%;
+        border: 1px dotted #fff;
+        background-image: url(../img/customer4.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 100%;
+        opacity: 1; }
+      /* line 182, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+      section.our-team .ot-overlay .person .per-img3 {
+        height: 200px;
+        width: 70%;
+        border: 1px dotted #fff;
+        background-image: url(../img/customer1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left;
+        border-radius: 100%;
+        opacity: 1; }
+      /* line 194, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+      section.our-team .ot-overlay .person p {
+        margin: 0;
+        padding: 0;
+        text-align: justify;
+        color: #fff;
+        font-weight: bolder; }
+
+/* line 205, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+section.contact-us {
+  height: 400px;
+  width: 100%;
+  filter: grayscale(50%);
+  padding-left: 40px;
+  padding-right: 40px; }
+  /* line 212, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+  section.contact-us h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color: darkseagreen;
+    filter: grayscale(50%); }
+  /* line 220, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+  section.contact-us h3:after {
+    content: "";
+    display: block;
+    text-align: center;
+    width: 100px;
+    height: 1px;
+    background-color: darkseagreen;
+    filter: grayscale(90%);
+    margin: 0 auto; }
+  /* line 230, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+  section.contact-us .right-part {
+    width: 40%;
+    height: 200px;
+    float: left;
+    margin-left: 90px;
+    padding-left: 160px; }
+    /* line 236, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+    section.contact-us .right-part input {
+      width: 320px;
+      height: 40px;
+      border: 1px solid darkseagreen;
+      border-radius: 10px; }
+    /* line 242, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+    section.contact-us .right-part input[type=text]:focus, section.contact-us .right-part input[type=email]:focus {
+      border: 1px solid green; }
+  /* line 246, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+  section.contact-us .left-part {
+    width: 50%;
+    height: 200px;
+    float: right; }
+    /* line 251, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+    section.contact-us .left-part textarea {
+      width: 70%;
+      height: 150px;
+      border: 1px solid darkseagreen;
+      border-radius: 20px; }
+    /* line 257, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+    section.contact-us .left-part textarea:focus {
+      border: 1px solid green; }
+  /* line 261, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+  section.contact-us .contact-button {
+    width: 120px;
+    text-align: center;
+    width: 500px;
+    margin: 0px auto; }
+    /* line 267, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+    section.contact-us .contact-button button.contact-btn {
+      border: 10px;
+      height: inherit;
+      width: 100%;
+      background-color: darkseagreen;
+      filter: grayscale(30%);
+      border-radius: 10px;
+      cursor: pointer;
+      text-transform: uppercase; }
+    /* line 279, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+    section.contact-us .contact-button button.contact-btn:hover {
+      background-color: darkseagreen;
+      filter: none; }
+
+/* line 286, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+section.partners {
+  height: 250px;
+  width: 100%;
+  background-color: darkseagreen;
+  filter: grayscale(90%);
+  margin-bottom: 40px;
+  padding-top: 10px; }
+  /* line 295, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+  section.partners .shift-left {
+    padding-left: 100px; }
+  /* line 298, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+  section.partners h3 {
+    color: #fff;
+    text-align: center; }
+  /* line 304, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+  section.partners h3:after {
+    content: "";
+    display: block;
+    text-align: center;
+    width: 100px;
+    height: 1px;
+    background-color: #fff;
+    filter: grayscale(90%);
+    margin: 0 auto; }
+  /* line 314, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+  section.partners .partner {
+    height: 100px;
+    width: 22%;
+    color: #fff;
+    float: left; }
+
+@media screen and (max-width: 600px) {
+  /* line 323, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+  section.admin-info {
+    height: 450px;
+    width: 100%;
+    margin-top: 610px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    padding-top: 40px; }
+    /* line 330, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+    section.admin-info h3 {
+      height: 30px;
+      width: 80%;
+      text-align: center;
+      margin: 30px 0;
+      padding-right: 80px;
+      margin-bottom: 50px; }
+    /* line 339, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+    section.admin-info .admin-image, section.admin-info .admin-texts {
+      clear: both; }
+    /* line 342, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+    section.admin-info .admin-image {
+      display: none; }
+    /* line 348, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+    section.admin-info .admin-texts {
+      height: 400px;
+      width: 100%;
+      float: none;
+      text-align: center;
+      margin: 0 auto; }
+  /* line 357, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+  section.our-team {
+    padding: 0;
+    height: 1000px;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 30px; }
+    /* line 364, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+    section.our-team .ot-overlay {
+      padding: 0;
+      margin: 0 auto; }
+      /* line 368, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+      section.our-team .ot-overlay .person {
+        padding-left: 70px;
+        margin: 0;
+        float: none;
+        width: 100%;
+        height: 300px; }
+  /* line 378, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+  section.partners {
+    height: 300px;
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+    /* line 384, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+    section.partners .partner {
+      height: 50px;
+      float: none;
+      width: 50%;
+      padding-left: 50px; }
+  /* line 392, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+  section.contact-us {
+    height: 500px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 57px; }
+    /* line 397, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+    section.contact-us .right-part, section.contact-us .left-part {
+      float: none; }
+    /* line 400, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+    section.contact-us .right-part {
+      height: 200px;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      padding-left: 20px; }
+    /* line 407, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+    section.contact-us .left-part {
+      height: 150px;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      padding: 0 20px; }
+      /* line 414, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+      section.contact-us .left-part textarea {
+        height: inherit;
+        width: 100%; }
+    /* line 419, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+    section.contact-us .contact-button {
+      margin-top: 20px;
+      height: 50px;
+      width: 100%;
+      padding: 0 20px; }
+      /* line 424, /Applications/MAMP/htdocs/myya/assets/css/allpages.scss */
+      section.contact-us .contact-button button {
+        height: 50%;
+        width: 100%; } }
+
+/*# sourceMappingURL=allpages.css.map */

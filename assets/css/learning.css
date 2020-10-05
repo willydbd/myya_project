@@ -1,0 +1,292 @@
+/* line 1, /Applications/MAMP/htdocs/myya/assets/css/_afters.scss */
+h3 {
+  color: black;
+  text-align: center;
+  font-weight: lighter;
+  padding-top: 20px; }
+
+/* line 8, /Applications/MAMP/htdocs/myya/assets/css/_afters.scss */
+h3:after {
+  content: "";
+  display: block;
+  text-align: center;
+  width: 100px;
+  height: 1px;
+  background-color: black;
+  filter: grayscale(90%);
+  margin-top: .3rem; }
+
+/* line 19, /Applications/MAMP/htdocs/myya/assets/css/_afters.scss */
+.fa {
+  color: #fff; }
+
+/* line 23, /Applications/MAMP/htdocs/myya/assets/css/_afters.scss */
+.all_headers, .learn-header {
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center; }
+
+/* line 31, /Applications/MAMP/htdocs/myya/assets/css/_afters.scss */
+.all_headers_overlay, .learn-header .header-overlay, .learn-split .split-left .left-over {
+  padding-top: 150px;
+  height: inherit;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  opacity: 1; }
+
+/* line 39, /Applications/MAMP/htdocs/myya/assets/css/_afters.scss */
+.h3_nobtt {
+  border: none; }
+
+/* line 43, /Applications/MAMP/htdocs/myya/assets/css/_afters.scss */
+.three {
+  width: 100%;
+  height: 300px;
+  margin: 10px 50px; }
+
+/* line 49, /Applications/MAMP/htdocs/myya/assets/css/_afters.scss */
+.ones {
+  width: 30%;
+  height: inherit;
+  padding: 80px 5px;
+  float: left; }
+
+/* line 56, /Applications/MAMP/htdocs/myya/assets/css/_afters.scss */
+.all_btns, .learn-header .header-overlay .btn-click {
+  width: 30%;
+  text-align: center;
+  margin: 0 auto; }
+
+/* line 6, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+.learn-header {
+  background-image: url(../img/myya_learn.jpg);
+  background-size: cover;
+  background-position: center; }
+  /* line 11, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+  .learn-header .header-overlay {
+    position: relative; }
+    /* line 14, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+    .learn-header .header-overlay .content {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+      right: 0; }
+    /* line 21, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+    .learn-header .header-overlay .fa {
+      position: absolute;
+      bottom: 1rem;
+      left: 0;
+      right: 0; }
+    /* line 27, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+    .learn-header .header-overlay h3 {
+      text-transform: uppercase;
+      color: orange;
+      font-size: 35px;
+      margin-bottom: 0; }
+    /* line 33, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+    .learn-header .header-overlay h3:after {
+      width: 0;
+      height: 0; }
+    /* line 37, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+    .learn-header .header-overlay h5 {
+      color: #fff;
+      margin: 0; }
+    /* line 44, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+    .learn-header .header-overlay .btn-click button {
+      background-color: black;
+      color: #fff;
+      border: 2px solid #fff; }
+    /* line 50, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+    .learn-header .header-overlay .fa {
+      color: #fff;
+      margin-top: 80px;
+      font-size: 30px; }
+
+/* line 58, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+section.change-bg {
+  background-image: url(../../img/myya_publish.jpg); }
+
+/* line 62, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+.learn-split {
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  margin: 40px 10px; }
+  /* line 67, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+  .learn-split .split-left {
+    width: 50%;
+    height: 100%;
+    background-image: url(../../img/learning_picture.jpg);
+    background-size: cover;
+    background-position: top;
+    float: left; }
+    /* line 76, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+    .learn-split .split-left .left-over {
+      opacity: .7;
+      padding-top: 0; }
+  /* line 82, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+  .learn-split .split-right {
+    width: 50%;
+    height: 100%;
+    padding: 70px 40px;
+    float: right; }
+    /* line 89, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+    .learn-split .split-right .right-header {
+      text-decoration: underline;
+      margin-bottom: 10px;
+      padding-bottom: 5px; }
+
+/* line 97, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+.lr-contact {
+  width: 100%;
+  text-align: center; }
+  /* line 100, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+  .lr-contact h3 {
+    padding: 3rem 0 0; }
+  /* line 103, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+  .lr-contact h3:after {
+    width: 0;
+    height: 0; }
+  /* line 107, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+  .lr-contact form {
+    text-align: center;
+    margin: 0 auto; }
+    /* line 110, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+    .lr-contact form .input {
+      text-align: center;
+      margin: 0 auto 1rem; }
+    /* line 114, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+    .lr-contact form input[type=email] {
+      height: 50px;
+      width: 40%;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 20px; }
+    /* line 121, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+    .lr-contact form button {
+      width: 20%;
+      height: 51px;
+      text-transform: uppercase;
+      background-color: #fff;
+      border: 1px solid black;
+      color: black;
+      font-weight: bolder; }
+    /* line 130, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+    .lr-contact form button:hover {
+      background-color: black;
+      color: #fff;
+      font-weight: bolder; }
+
+@media screen and (max-width: 600px) {
+  /* line 139, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+  section.learn-header {
+    height: 400px;
+    padding-top: 0; }
+    /* line 142, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+    section.learn-header .header-overlay {
+      padding-top: 0; }
+      /* line 144, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+      section.learn-header .header-overlay h3 {
+        margin-top: 0; }
+      /* line 147, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+      section.learn-header .header-overlay .btn-click {
+        width: 80%; }
+      /* line 150, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+      section.learn-header .header-overlay .fa {
+        padding: 0;
+        margin-top: 30px; }
+  /* line 156, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+  section.other-lorem {
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+    /* line 161, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+    section.other-lorem .lorem-header {
+      text-align: justify; }
+  /* line 165, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+  section.learn-split {
+    height: 500px;
+    width: 100%; }
+    /* line 168, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+    section.learn-split .split-left,
+    section.learn-split .split-right {
+      float: none;
+      height: 250px;
+      width: 80%;
+      padding: 0;
+      margin: 0;
+      margin: 20px auto;
+      margin-left: 18px; }
+  /* line 179, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+  section.four-divs {
+    height: auto;
+    width: 100%;
+    padding-top: 20px; }
+    /* line 183, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+    section.four-divs .first-div,
+    section.four-divs .second-div,
+    section.four-divs .third-div,
+    section.four-divs .fourth-div {
+      float: none;
+      height: 350px;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 10px; }
+      /* line 194, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+      section.four-divs .first-div h3,
+      section.four-divs .first-div p,
+      section.four-divs .first-div button,
+      section.four-divs .second-div h3,
+      section.four-divs .second-div p,
+      section.four-divs .second-div button,
+      section.four-divs .third-div h3,
+      section.four-divs .third-div p,
+      section.four-divs .third-div button,
+      section.four-divs .fourth-div h3,
+      section.four-divs .fourth-div p,
+      section.four-divs .fourth-div button {
+        margin: 0;
+        padding: 0;
+        margin-right: 50px; }
+      /* line 201, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+      section.four-divs .first-div button,
+      section.four-divs .second-div button,
+      section.four-divs .third-div button,
+      section.four-divs .fourth-div button {
+        background-color: black;
+        border: none; }
+  /* line 207, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+  section.lr-contact {
+    height: 300px;
+    width: 100%; }
+    /* line 210, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+    section.lr-contact form {
+      height: inherit;
+      width: 100%;
+      margin: 0;
+      padding: 0; }
+      /* line 215, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+      section.lr-contact form .input {
+        height: 100px;
+        width: 90%;
+        padding: 0;
+        margin: 0 auto; }
+        /* line 220, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+        section.lr-contact form .input input[type=email] {
+          width: 100%;
+          height: 50px;
+          margin-left: 0;
+          margin: 0 auto; }
+      /* line 227, /Applications/MAMP/htdocs/myya/assets/css/learning.scss */
+      section.lr-contact form button {
+        height: 55px;
+        width: 80%;
+        margin: 0 auto;
+        padding: 0; } }
+
+/*# sourceMappingURL=learning.css.map */

@@ -1,0 +1,100 @@
+@media screen and (min-width: 993px) {
+  .navbar {
+    position: relative; }
+    .navbar li.acc {
+      float: right;
+      position: absolute;
+      right: 0;
+      width: fit-content; }
+      .navbar li.acc:last-child {
+        right: 71px; } }
+@media screen and (max-width: 992px) {
+  li.acc {
+    display: inline-block;
+    float: right; } }
+#showSlide, #quiz {
+  margin: 10px auto;
+  border-radius: 0;
+  background-color: darkseagreen;
+  color: #fff;
+  transition: all .5s; }
+  #showSlide:hover, #quiz:hover {
+    color: #fff;
+    background-color: #6fa96f; }
+
+.learn-carousel {
+  width: 100vw;
+  height: 100vh;
+  min-height: 500px;
+  padding: 10px;
+  padding-bottom: 50px;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000000;
+  text-align: center;
+  display: none; }
+  .learn-carousel .close-btn {
+    position: absolute;
+    top: 00px;
+    right: 20px;
+    font-size: 33px;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    display: block;
+    line-height: 50px;
+    text-align: center; }
+  .learn-carousel img {
+    height: 100%;
+    width: auto;
+    margin: auto; }
+  .learn-carousel .counter {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+    color: #fff;
+    font-size: 24px;
+    text-align: center; }
+  .learn-carousel .button {
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    background: transparent !important;
+    border: 1px solid #fff;
+    color: #fff;
+    height: 50px !important;
+    width: 50px !important;
+    line-height: 50px;
+    font-size: 22px;
+    border-radius: 50%; }
+    .learn-carousel .button:first-child {
+      left: 20px; }
+    .learn-carousel .button:last-child {
+      right: 20px; }
+
+.quiz {
+  width: 95%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+  padding: 50px 30px; }
+  @media screen and (max-width: 992px) {
+    .quiz {
+      padding: 30px 15px; } }
+  .quiz .options label {
+    font-size: 18px; }
+    .quiz .options label input[type=radio] {
+      margin-top: 7px; }
+
+/*# sourceMappingURL=mod.css.map */

@@ -1,0 +1,60 @@
+h3 {
+    color: black;
+    text-align: center;
+    font-weight: lighter;
+    padding-top: 20px;
+}
+
+h3:after {
+    content: "";
+    display: block;
+    text-align: center;
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    filter: grayscale(90%);
+    margin-top: .3rem;
+}
+
+.fa {
+    color: #fff;
+}
+
+.all_headers {
+    height: $default-height;
+    width: $body-width;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.all_headers_overlay {
+    padding-top: 150px;
+    height: inherit;
+    width: $body-width;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    opacity: 1;
+}
+
+.h3_nobtt {
+    border: none;
+}
+
+.three {
+    width: $body-width;
+    height: 300px;
+    margin: 10px 50px;
+}
+
+.ones {
+    width: 30%;
+    height: inherit;
+    padding: 80px 5px;
+    float: left;
+}
+
+.all_btns {
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+}

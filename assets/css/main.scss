@@ -1,0 +1,358 @@
+$body-width: 100%;
+$background: gray;
+a {
+    text-decoration: none;
+}
+
+.other-infos .item-description:hover {
+    .myya-list {
+        color: grey;
+    }
+    .more-info {
+        color: grey;
+    }
+}
+
+.game-header {
+    padding: 0;
+    //margin-top: -20px;
+    height: 150px;
+    width: $body-width;
+    background-color: $background;
+    text-align: center;
+    //position: fixed;
+    z-index: 9999;
+    .game-text {
+        color: white;
+        font-size: 30px;
+        padding-top: 30px;
+        font-family: 'Pacifico', cursive;
+        opacity: 1;
+    }
+}
+
+.game-section {
+    width: $body-width;
+    .row {
+        .bordered-left {
+            .map-collection {}
+        }
+        .bordered-right {}
+    }
+}
+
+section.big-guy {
+    width: 100%;
+    background-image: url(../img/myya_new_store.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    color: whitesmoke !important;
+    //    margin-top: -55px;
+    .main-info {
+        text-align: center;
+    }
+    h2 {
+        font-size: 3.2em;
+        z-index: 9999;
+        padding: 0;
+        color: whitesmoke;
+//        font-family: 'Josefin Sans', sans-serif;
+    }
+    h4 {
+        color: whitesmoke;
+        font-weight: lighter;
+    }
+    h3 {
+        font-size: 2.2em;
+        color: #fff;
+        font-style: italic;
+        font-weight: lighter;
+        margin-top: -25px;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-bottom: 0;
+    }
+    h3:after {
+        height: 0;
+        width: 0;
+    }
+    button {
+        width: 100px;
+        height: 50px;
+        color: white;
+        //opacity: .8;
+        z-index: 9999;
+        border-radius: 10px;
+    }
+    button.buy:hover {
+        background-color: darkgreen;
+        opacity: 1;
+        transform: scale(1.2);
+        margin-right: 10px;
+        transition: .4s ease-in;
+    }
+    button.buy {
+        background-color: forestgreen;
+    }
+    button.sell {
+        background-color: darkseagreen;
+    }
+    button.sell:hover {
+        background-color: darkgreen;
+        transform: scale(1.2);
+        margin-left: 10px;
+        transition: .4s ease-in;
+    }
+    &>.overlay {
+        height: 100%;
+        padding: 100px 0;
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    }
+}
+
+section.products {
+    width: $body-width;
+    background-color: mintcream;
+    padding-bottom: 2rem;
+    &:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+    p.product-texts {
+        font-size: 12px;
+        padding-top: 20px;
+        text-align: justify;
+        line-height: 30px;
+    }
+    .col-md-4 {
+        margin-top: 40px;
+        height: 300px;
+        margin-top: 30px;
+        text-align: center;
+        padding: 0 2rem
+    }
+    .bordered {}
+    .fa {
+        font-size: 50px;
+        border-radius: 100%;
+        width: 100px;
+        height: 100px;
+        padding-top: 25px;
+        text-align: center;
+        margin-top: 20px;
+        background-color: darkseagreen;
+        color: #fff;
+    }
+}
+
+.little-inf {
+    padding-top: 20px;
+    margin-top: -30px;
+    height: 200px;
+    text-align: center;
+    .store {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 2em;
+    }
+    h2:after {
+        width: 200px;
+        content: "";
+        height: 2px;
+        display: block;
+        margin: 0 auto;
+        background-color: darkolivegreen;
+    }
+    .store-text {
+        font-size: 15px;
+        font-weight: lighter;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+section.prod-list {
+    width: 100%;
+    height: 300px;
+    .container,
+    .row {
+        height: inherit;
+    }
+    .col-md-4 {
+        height: inherit;
+        margin-top: 10px;
+        border: 2px solid #dcdcdc;
+        border-radius: 10px;
+        overflow: hidden;
+        background-size: cover;
+        .hovered {
+            width: 350px;
+            height: 100%;
+            display: none;
+            background-color: rgba(darkseagreen, .8);
+            margin-left: -20px;
+            transition: 1s ease-in;
+        }
+        p {
+            padding: 30px 30px;
+            color: #fff;
+            z-index: 9999;
+        }
+        &.item-1 {
+            background: url(../img/publishing2.jpg) no-repeat center;
+        }
+        &.item-2 {
+            background: url(../img/properties.png) no-repeat center;
+        }
+        &.item-3 {
+            background: url(../img/myya_new_store.jpg) no-repeat center;
+        }
+    }
+    .col-md-4:hover .hovered {
+        display: block;
+        transition: 1s ease-in;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width:768px) {
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    section.products {
+        height: auto;
+        width: $body-width;
+        .col-md-4 {
+            width: inherit;
+            height: auto;
+            padding-left: 0;
+            padding-right: 0;
+            margin-right: 0;
+            right: 50px;
+        }
+        p {
+            text-align: justify;
+            margin: 0;
+            padding: 0 10px;
+        }
+        .fa {
+            text-align: center;
+            margin: 0 140px;
+            width: 90px;
+            height: 100px;
+        }
+    }
+    section.litte-inf {
+        height: auto;
+        width: $body-width;
+        margin-top: 20px;
+        .sellables {
+            height: auto;
+            width: inherit;
+        }
+    }
+    section.prod-list {
+        height: 650px;
+        width: $body-width;
+        margin-top: 80px;
+        .col-md-3 {
+            height: 25%;
+            width: inherit;
+            padding: 0 20px;
+            .hovered {
+                width: 400px;
+                height: 100%;
+                display: none;
+                background-color: darkseagreen;
+                margin-left: -20px;
+                transition: 1s ease-in;
+            }
+        }
+    }
+    footer {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    section.products {
+        height: auto;
+        width: $body-width;
+        .col-md-4 {
+            width: inherit;
+            height: auto;
+            padding-left: 0;
+            padding-right: 0;
+            margin-right: 0;
+            right: 50px;
+        }
+        p {
+            text-align: justify;
+            margin: 0;
+            padding: 0 10px;
+        }
+        .fa {
+            text-align: center;
+            margin: 0 140px;
+            width: 90px;
+            height: 100px;
+        }
+    }
+    section.litte-inf {
+        height: auto;
+        width: $body-width;
+        margin-top: 20px;
+        .sellables {
+            height: auto;
+            width: inherit;
+        }
+    }
+    section.prod-list {
+        height: 750px;
+        width: $body-width;
+        margin-top: 80px;
+        .col-md-3 {
+            height: 22%;
+            width: $body-width;
+            padding: 0 20px;
+            .hovered {
+                width: 400px;
+                height: 100%;
+                display: none;
+                background-color: darkseagreen;
+                margin-left: -20px;
+                transition: 1s ease-in;
+            }
+        }
+    }
+    footer {
+        margin-top: 50px;
+    }
+}
+
+section.big-learn {
+    height: 600px;
+    width: $body-width;
+    background-image: url(../img/Students-Learning.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    .big-learn-overlay {
+        height: inherit;
+        width: inherit;
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
+        .green {
+            color: mediumseagreen;
+        }
+    }
+    .learn-text {
+        padding: 20px auto;
+    }
+}

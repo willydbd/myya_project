@@ -1,0 +1,152 @@
+quiz = [
+    {
+        "question": "The smallest state in Nigeria by landmass is?",
+        "answer": "Lagos State",
+        "options": ["Niger State", "Benue State", "Anambra State", "Nasarawa state", "Delta state", "Edo state", "Jigawa state", "Bauchi state", "Kogi State"]
+    },
+    {
+        "question": "The largest state in Nigeria by landmass is?",
+        "answer": "Niger State",
+        "options": ["River State", "Enugu State", "Sokoto State", "Delta state", "Edo state", "Bauchi state", "Kogi state", "Ogun state", "Borno state"]
+    },
+    {
+        "question": "The state in Nigeria with the highest population is?",
+        "answer": "Kano State",
+        "options": ["Katsina state", "Adamawa state", "Delta state", "Bauchi state", "Taraba state", "Lagos state", "Edo state", "Jigawa state", "Borno state"]
+    },
+    {
+        "question": "The state in Nigeria with the lowest population is?",
+        "answer": "Bayelsa State",
+        "options": ["Ekiti state", "Bauchi state", "Kaduna state", "Zamfara state", "Niger state", "Plateau state", "Benue state", "Abia state", "Nasarawa State"]
+    },
+    {
+        "question": "Where is kainji Dam located in Nigeria?",
+        "answer": "Niger State",
+        "options": ["Kano state", "Kaduna state", "Kwara state", "Jigawa state", "Abuja", "Kogi state", "Kebbi state", "Kaduna state", "Taraba State"]
+    },
+    {
+        "question": "The state in Nigeria with the second highest population is?",
+        "answer": "Lagos State",
+        "options": ["Kano state", "Katsina state", "Adamawa state", "Delta state", "Bauchi state", "Taraba state", "Edo state", "Jigawa state", "Borno state"]
+    },
+    {
+        "question": "Abuja became Nigeria’s capital in which year?",
+        "answer": "1991",
+        "options": ["1994", "1995", "1985", "1988", "1882", "1993", "1992", "1986", "1988"]
+    },
+    {
+        "question": "In which year did Nigeria become a republic?",
+        "answer": "1963",
+        "options": ["1970", "1964", "1967", "1968", "1966", "1969", "1961", "1962", "1960"]
+    },
+    {
+        "question": "Who composed Nigeria’s former National Anthem, “Nigeria we hail thee” and in what year?",
+        "answer": "Lilian Jean Williams, 1960",
+        "options": ["Jimmy Carter, 1976", "Ahmadu Ali, 1867", "Geoffrey Colley, 1990", "Adam Smith, 1776", "John Kanon , 1879", "Albert Macaulay, 1980", "Nnamdi Azikiwe, 1970", "Benedict E. Odiase, 1978", "Philip Gbeho, 1969"]
+    },
+    {
+        "question": "Who composed Nigeria’s National Anthem, “Arise, O Compatriot”… and in what year?",
+        "answer": "Benedict E. Odiase, 1978",
+        "options": ["Jimmy Carter, 1976", "Ahmadu Ali, 1867", "Geoffrey Colley, 1990", "Adam Smith, 1776", "John Kanon , 1879", "Albert Macaulay, 1980", "Lilian Jean Williams, 1960", "Nnamdi Azikiwe, 1970", "Philip Gbeho, 1969"]
+    },
+    {
+        "question": "The flag of Nigeria was designed by who and in what year?",
+        "answer": "Micheal Taiwo Akinkunmi, 1960",
+        "options": ["Ahmadu Ali, 1867", "Geoffrey Colley, 1990", "Adam Smith, 1776", "John Kanon , 1879", "Albert Macaulay, 1980", "Lilian Jean Williams, 1961", "Nnamdi Azikiwe, 1970", "Benedict E. Odiase, 1978", "Philip Gbeho, 1969"]
+    },
+    {
+        "question": "The use of Naira and kobo as Nigeria currency took effect from which year?",
+        "answer": "1973",
+        "options": ["1990", "1960", "1974", "1874", "1988", "1985", "1981", "1961", "1964"]
+    },
+    {
+        "question": "The first recorded eclipse of the sun in Nigeria occurred in which year?",
+        "answer": "1947",
+        "options": ["1990", "1960", "1874", "1988", "1973", "1985", "1981", "1961", "1964"]
+    },
+    {
+        "question": "Which Nigeria Head of State first launched Universal Primary Education?",
+        "answer": "General Olusegun Obansanjo",
+        "options": ["Muhammed Buhari", "Dr. Goodluck Jonathan", "Alhaji Umaru Musa Yar’Adua", "Dr. Nnamdi Azikiwe", "Anthony Eromosele Enahoro", "Gen. Yakubu Gowon", "Sir. A. Tafawa Balewa", "Gen Sanni Abacha"]
+    },
+    {
+        "question": "Which individual first moved the motion for Nigeria’s independence?",
+        "answer": "Anthony Eromosele Enahoro",
+        "options": ["General Olusegun Obansanjo", "Muhammed Buhari", "Dr. Goodluck Jonathan", "Alhaji Umaru Musa Yar’Adua", "Dr. Nnamdi Azikiwe", "Gen. Yakubu Gowon", "Sir. A. Tafawa Balewa", "Gen Sanni Abacha"]
+    },
+    {
+        "question": "Who has been regarded by academics and many Nigerians as the “Father of Nigeria”? ",
+        "answer": "Dr. Nnamdi Azikiwe",
+        "options": ["General Olusegun Obansanjo", "Muhammed Buhari", "Dr. Goodluck Jonathan", "Alhaji Umaru Musa Yar’Adua", "Anthony Eromosele Enahoro", "Gen. Yakubu Gowon", "Sir. A. Tafawa Balewa", "Gen Sanni Abacha"]
+    },
+    {
+        "question": "Who was Nigeria’s First Prime Minister? ",
+        "answer": "Sir. A. Tafawa Balewa",
+        "options": ["General Olusegun Obansanjo", "Muhammed Buhari", "Dr. Goodluck Jonathan", "Alhaji Umaru Musa Yar’Adua", "Dr. Nnamdi Azikiwe", "Anthony Eromosele Enahoro", "Gen. Yakubu Gowon", "Gen Sanni Abacha"]
+    },
+    {
+        "question": "The speech declaring Nigeria’s Independence was given by Nigeria’s First Prime Minister and in what year?",
+        "answer": "Sir. A. Tafawa Balewa, 1960",
+        "options": ["General Olusegun Obansanjo, 1960", "Muhammed Buhari, 1960", "Dr. Goodluck Jonathan, 1960", "Alhaji Umaru Musa Yar’Adua, 1960", "Dr. Nnamdi Azikiwe, 1960", "Anthony Eromosele Enahoro, 1960", "Gen. Yakubu Gowon, 1960", "Gen Sanni Abacha, 1960"]
+    },
+    {
+        "question": "When did Nigeria  become an independent Sovereign nation? ",
+        "answer": "1960",
+        "options": ["1963", "1961", "1988", "1970", "1997", "1956", "1976", "1966", "1965"]
+    },
+    {
+        "question": "Nigeria became a British protectorate in …………?",
+        "answer": "1901",
+        "options": ["1910", "1801", "1908", "1898", "1810", "1888", "1900", "1907"]
+    },
+    {
+        "question": "Who was the first Senate President of Nigeria?",
+        "answer": "Dr. Nnamdi Azikiwe",
+        "options": ["General Olusegun Obansanjo", "Muhammed Buhari", "Dr. Goodluck Jonathan", "Alhaji Umaru Musa Yar’Adua", "Anthony Eromosele Enahoro", "Gen. Yakubu Gowon", "Sir. A. Tafawa Balewa", "Gen Sanni Abacha"]
+    },
+    {
+        "question": "The first senate President of Nigeria was elected into the Legislative council of Nigeria in what year?",
+        "answer": "1950",
+        "options": ["1951", "1952", "1953", "1989", "1996", "1990", "1997", "1990", "1986"]
+    },
+    {
+        "question": "What is the first capital city of Nigeria?",
+        "answer": "Calabar",
+        "options": ["Abuja", "Lagos", "Kaduna", "Bauchi state", "Taraba state", "Lagos state", "Edo state", "Jigawa state", "Borno state"]
+    },
+    {
+        "question": "Where was crude oil first discovered in Nigeria?",
+        "answer": "Bayelsa State",
+        "options": ["Delta state", "Bauchi state", "Taraba state", "Lagos state", "Edo state", "Jigawa state", "Borno state", "Rivers state", "Ondo state"]
+    },
+    {
+        "question": "What year was crude oil first discovered in Nigeria? ",
+        "answer": "1956",
+        "options": ["1953", "1954", "1955", "1965", "1897", "1879", "1945", "1856", "1957"]
+    },
+    {
+        "question": "How many Local Government are in Nigeria? ",
+        "answer": "774",
+        "options": ["674", "704", "623", "567", "878", "687", "786", "777", "687"]
+    },
+    {
+        "question": "The foundation of the first storey (multi-level) building in Nigeria was laid and the building completed in what year? ",
+        "answer": "1842,1845",
+        "options": ["1842, 1847", "1867, 1869", "1845, 1849", "1866, 1867", "1877, 1880", "1852,1855", "1898, 1899", "1888, 1900", "1852,1857"]
+    },
+    {
+        "question": "The first storey (multi-level) building in Nigeria was located in which state? ",
+        "answer": "Lagos State",
+        "options": ["Ogun state", "Katsina state", "Gombe state", "Benue state", "Calabar state", "Akwa Ibom state", "Kaduna state", "Ondo state", "Delta state"]
+    },
+    {
+        "question": "Which was the premiere University in Nigeria? ",
+        "answer": "University of Ibadan",
+        "options": ["University of Benin", "Obafemi Awolowo University", "Delta state University", "Nnamdi Azikiwe University", "University of Lagos", "University of Abuja", "Abia state University", "University of Calabar", "Ekiti state University"]
+    },
+    {
+        "question": "Nigeria’s Premier University was called? ",
+        "answer": "University Institute of Ibadan",
+        "options": ["University College of Ibadan", "Abia state University", "University of Calabar", "Ekiti state University", "Obafemi Awolowo University", "Delta state University", "University of Ibadan", "Nnamdi Azikiwe University", "Yaba Technology Institute"]
+    },
+]

@@ -1,0 +1,123 @@
+
+.section{
+    width: 100%;
+    height: 450px;
+    background-image: url(../../img/img/laptop.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    //margin-left: -7px;
+    margin-top: -8px;
+    overflow-x: hidden;
+}
+.overlay {
+	width: 102%;
+    height: 450px;
+    background-color: rgba(10,10, 10, 0.3);
+    padding: 30px;
+    margin-left: -5px;
+    overflow-x: hidden;
+}
+.overlay > h1 {
+	font-size: 3rem;
+    font-weight: bolder;
+    margin-top: 10%;
+    color: white;
+    line-height: 50px;
+}
+.overlay > h5 {
+	font-weight: bolder;
+    font-size: 1rem;
+    margin-top: -20px;
+    color: white;
+    font-family: 'Spectral', serif;
+}
+.overlay > button{
+	width: 10%;
+    height: 10%;
+    border-radius: 30px;
+    margin: 10px;
+    color: white;
+    border: 3px solid white;
+    background-color: darkgreen;
+    transition: .5s ease;
+    
+
+}
+.overlay > button:hover{
+	background-color: seagreen;
+}
+
+.containers {
+	width: 100%;
+    height: 900px;
+    margin-left: -5px;
+}
+.containers > h1 {
+	text-align: center;
+    margin-top: 40px;
+    margin-bottom: -40px;
+    font-weight: bolder;
+    
+}
+.containers #first{
+    background-image: url(../../img/img/book1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.containers #second{
+    background-image: url(../../img/img/book2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.containers #third{
+    background-image: url(../../img/img/book3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.containers #fourth{
+    background-image: url(../../img/img/book1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.containers #fifth{
+    background-image: url(../../img/img/book2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.containers #sixty{
+    background-image: url(../../img/img/book3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.containers #seventh{
+    background-image: url(../../img/img/book1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.containers #eight{
+    background-image: url(../../img/img/book3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.line {
+    width: 10%;
+    height: 0;
+    border-top: 7px solid orange;
+    margin-left:40.5em;
+    margin-bottom: -50px;
+    margin-top: 50px;
+    
+}
+
+.containers .images {
+	height: 300px;
+    width: 22%;
+    border-radius: 30px;
+    margin: 10px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 100px;
+}

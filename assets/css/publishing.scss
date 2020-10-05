@@ -1,0 +1,37 @@
+$body-width: 100%;
+$default-height: 600px;
+$default-color: #fff;
+$default-margin: 20px;
+@import "_afters.scss";
+section.body {
+    height: $default-height;
+    width: $body-width;
+    position: relative;
+    .filters {
+        width: 20%;
+        height: auto;
+        position: fixed;
+        ul>li {
+            list-style-type: none;
+        }
+    }
+    .full-body {
+        position: relative;
+        width: 70%;
+        .book-img {
+            width: 40%;
+            height: inherit;
+            float: left;
+            background-image: url(../img/myya_doc.jpg);
+        }
+        .book-texts {
+            width: 50%;
+            height: inherit;
+            float: right;
+        }
+    }
+}
+
+.new-one {
+    height: 900px;
+}

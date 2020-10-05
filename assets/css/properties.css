@@ -1,0 +1,406 @@
+/* line 6, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+section.prop-head {
+  height: 500px;
+  width: 100%;
+  opacity: 0.8;
+  background-image: url(../img/properties.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center; }
+  /* line 15, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+  section.prop-head .prop-overlay {
+    height: inherit;
+    width: inherit;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); }
+  /* line 20, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+  section.prop-head .prop-texts {
+    float: right !important;
+    width: 45%;
+    height: 70%;
+    margin-top: 65px;
+    margin-right: 60px;
+    padding-top: 70px;
+    padding-left: 20px;
+    font-family: 'Josefin Sans', sans-serif; }
+    /* line 30, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+    section.prop-head .prop-texts .prop-head {
+      color: #fff;
+      font-size: 2.5em;
+      font-weight: bolder; }
+    /* line 37, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+    section.prop-head .prop-texts .green {
+      color: darkgreen; }
+    /* line 40, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+    section.prop-head .prop-texts .prop-body {
+      color: #fff;
+      font-size: 1.6em;
+      font-weight: lighter;
+      padding-top: 30px; }
+    /* line 48, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+    section.prop-head .prop-texts .prop-button {
+      height: 60px;
+      width: 250px;
+      background-color: darkgreen;
+      text-transform: uppercase;
+      padding-top: 22px;
+      border-radius: 20px;
+      color: #fff;
+      margin: 0 auto;
+      margin-top: 40px; }
+    /* line 59, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+    section.prop-head .prop-texts .prop-button:hover {
+      background-color: transparent;
+      border: 2px solid #fff;
+      color: darkgreen;
+      transition: .2s ease-in;
+      cursor: pointer; }
+
+/* line 70, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+section.property-info {
+  height: 450px;
+  width: 100%;
+  margin: 10px auto; }
+  /* line 74, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+  section.property-info .container {
+    margin-left: 130px;
+    margin-right: 0; }
+  /* line 78, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+  section.property-info .row {
+    margin: 0;
+    padding: 0; }
+  /* line 82, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+  section.property-info .pi-info {
+    text-align: center;
+    font-size: 25px;
+    color: darkseagreen;
+    margin-left: -30px; }
+  /* line 89, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+  section.property-info .pi-info:after {
+    display: block;
+    height: 3px;
+    width: 200px;
+    text-align: center;
+    background-color: darkseagreen;
+    content: "";
+    margin: 10px auto; }
+  /* line 102, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+  section.property-info .col-md-6 {
+    height: 300px;
+    width: 45%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 50px;
+    overflow: hidden; }
+    /* line 110, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+    section.property-info .col-md-6 .new-over {
+      height: 100%;
+      width: 120%;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+      color: #fff;
+      background-size: contain;
+      margin-left: -20px;
+      padding-top: 100px;
+      padding-left: 20px;
+      font-size: 17px;
+      font-weight: bolder;
+      text-transform: uppercase; }
+  /* line 124, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+  section.property-info .back-1 {
+    background-image: url(../img/images1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; }
+  /* line 129, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+  section.property-info .back-2 {
+    background-image: url(../img/images2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; }
+
+/* line 136, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+.prop-list {
+  height: 1050px;
+  width: 90%;
+  margin: 0 auto; }
+  /* line 141, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+  .prop-list .what-we-sell {
+    text-align: center;
+    color: darkseagreen; }
+    /* line 146, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+    .prop-list .what-we-sell .head {
+      color: darkseagreen; }
+    /* line 149, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+    .prop-list .what-we-sell h3:after {
+      display: block;
+      height: 3px;
+      width: 200px;
+      text-align: center;
+      background-color: darkseagreen;
+      content: "";
+      margin: 10px auto; }
+  /* line 159, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+  .prop-list .a-container {
+    height: 280px;
+    width: 100%;
+    margin-bottom: 10px; }
+    /* line 163, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+    .prop-list .a-container .row {
+      height: inherit;
+      width: 100%;
+      font-size: 15px; }
+      /* line 168, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+      .prop-list .a-container .row .col-md-6 {
+        height: 100%;
+        width: 45%;
+        margin-left: 45px;
+        text-align: justify; }
+      /* line 176, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+      .prop-list .a-container .row .new-col1 {
+        background-image: url(../img/images5.jpg);
+        opacity: .9;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px; }
+      /* line 183, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+      .prop-list .a-container .row .new-col4 {
+        background-image: url(../img/images6.jpg);
+        opacity: .9;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px; }
+      /* line 190, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+      .prop-list .a-container .row .new-col5 {
+        background-image: url(../img/images4.jpg);
+        opacity: .9;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px; }
+    /* line 198, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+    .prop-list .a-container button.btn {
+      background-color: darkseagreen;
+      filter: grayscale(10%);
+      color: #fff;
+      border: none; }
+    /* line 204, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+    .prop-list .a-container button.btn:hover {
+      background-color: darkseagreen; }
+  /* line 208, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+  .prop-list .prop-btn {
+    text-align: center;
+    font-size: 12px; }
+    /* line 212, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+    .prop-list .prop-btn .prop-button {
+      margin-top: 20px;
+      border: none;
+      background-color: seagreen;
+      filter: grayscale(60%);
+      height: 50px;
+      color: #fff;
+      border-radius: 10px; }
+    /* line 221, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+    .prop-list .prop-btn .prop-button:hover {
+      background-color: darkolivegreen;
+      transition: .5s ease-in; }
+
+/* line 228, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+footer {
+  width: 100%;
+  background-color: #f2f2f2;
+  /* filter: grayscale(60%); */
+  color: #fff;
+  padding-bottom: 10px;
+  margin-top: 30px;
+  overflow: auto; }
+  /* line 236, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+  footer section.last-info {
+    width: 100%;
+    padding-top: 60px; }
+    /* line 239, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+    footer section.last-info .row .fourth .fa {
+      color: black; }
+  /* line 243, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+  footer .container .row {
+    padding-right: 70px; }
+  /* line 246, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+  footer .col-md-6.address {
+    font-size: 15px; }
+    /* line 248, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+    footer .col-md-6.address .fa {
+      border: 2px solid #fff;
+      height: 30px;
+      width: 30px;
+      padding-left: 8px;
+      padding-top: 5px;
+      border-radius: 15px; }
+  /* line 258, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+  footer .adress {
+    font-size: 15px;
+    color: black; }
+  /* line 262, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+  footer .social-links {
+    text-align: center;
+    color: black; }
+    /* line 266, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+    footer .social-links .fa {
+      border: 1px solid black;
+      font-size: 15px;
+      width: 30px;
+      height: 30px;
+      color: black;
+      line-height: 30px;
+      text-align: center;
+      border-radius: 50px;
+      cursor: pointer; }
+    /* line 278, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+    footer .social-links .fa:hover {
+      background-color: darkolivegreen; }
+  /* line 282, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+  footer .copy-right {
+    color: black;
+    font-size: small; }
+
+/* line 289, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+.cm_header {
+  height: 500px;
+  width: 100%;
+  background-color: gray; }
+
+@media screen and (max-width: 600px) {
+  /* line 296, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+  body,
+  html {
+    overflow-x: hidden; }
+  /* line 301, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+  section.prop-head .prop-overlay {
+    padding-top: 50px;
+    padding-right: 50px;
+    text-align: center; }
+    /* line 305, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+    section.prop-head .prop-overlay .prop-texts {
+      width: 80%;
+      height: 300px;
+      float: none;
+      text-align: center;
+      margin: 0;
+      padding: 0; }
+      /* line 312, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+      section.prop-head .prop-overlay .prop-texts .prop-head,
+      section.prop-head .prop-overlay .prop-texts .prop-body {
+        padding: 0;
+        margin: 0;
+        color: #fff; }
+        /* line 317, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+        section.prop-head .prop-overlay .prop-texts .prop-head .green,
+        section.prop-head .prop-overlay .prop-texts .prop-body .green {
+          color: #fff; }
+      /* line 321, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+      section.prop-head .prop-overlay .prop-texts .prop-button {
+        margin: 0;
+        margin-top: 40px; }
+  /* line 328, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+  section.property-info {
+    height: 700px;
+    width: 100%; }
+    /* line 331, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+    section.property-info .container {
+      width: 100%;
+      height: inherit;
+      margin: 0;
+      padding: 0; }
+      /* line 337, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+      section.property-info .container .row .col-md-6 {
+        height: 272.72727px;
+        width: 90%;
+        margin: 10px 20px; }
+  /* line 346, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+  section.prop-list {
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+    /* line 351, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+    section.prop-list .a-container {
+      margin: 0;
+      padding: 0 20px;
+      height: 600px; }
+      /* line 356, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+      section.prop-list .a-container .row .col-md-6 {
+        height: 300px;
+        width: 100%;
+        padding: 0;
+        margin: 0; }
+      /* line 362, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+      section.prop-list .a-container .row .col-md-6.new-col6,
+      section.prop-list .a-container .row .col-md-6.new-col2,
+      section.prop-list .a-container .row .col-md-6.new-col3 {
+        height: 250px; }
+      /* line 367, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+      section.prop-list .a-container .row h3 {
+        height: 10px;
+        margin-top: 0; }
+  /* line 374, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+  footer {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: auto; }
+    /* line 381, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+    footer section.last-info {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      padding-top: 40px;
+      padding-left: 20px;
+      padding-right: 20px; }
+      /* line 388, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+      footer section.last-info .row .col-md-3 {
+        height: 120px;
+        margin: 0;
+        padding: 0; }
+      /* line 394, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+      footer section.last-info .row .col-md-3.first {
+        float: left; }
+      /* line 397, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+      footer section.last-info .row .col-md-3.second {
+        float: right; }
+      /* line 400, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+      footer section.last-info .row .col-md-3.third {
+        float: left;
+        margin-top: 20px; }
+      /* line 404, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+      footer section.last-info .row .col-md-3.fourth {
+        float: right;
+        margin-top: 20px;
+        margin-right: 10px;
+        color: black; }
+        /* line 409, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+        footer section.last-info .row .col-md-3.fourth .reduced a .fa {
+          color: black; }
+    /* line 415, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+    footer .container {
+      height: 200px;
+      width: 100%;
+      margin: 0;
+      padding: 0; }
+      /* line 420, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+      footer .container .row .col-md-6.address {
+        float: left;
+        height: inherit;
+        width: 50%;
+        padding: 0;
+        margin: 0;
+        padding-left: 20px; }
+        /* line 427, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+        footer .container .row .col-md-6.address h6 {
+          margin-top: -10px; }
+      /* line 431, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+      footer .container .row .col-md-6 {
+        float: right;
+        height: inherit;
+        width: 50%;
+        padding: 0;
+        margin: 0;
+        margin-right: -50px; }
+      /* line 439, /Applications/MAMP/htdocs/myya/assets/css/properties.scss */
+      footer .container .copy-right {
+        font-size: x-small; } }
+
+/*# sourceMappingURL=properties.css.map */

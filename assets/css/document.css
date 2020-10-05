@@ -1,0 +1,134 @@
+/* line 1, /Applications/MAMP/htdocs/myya/assets/css/_afters.scss */
+h3 {
+  color: black;
+  text-align: center;
+  font-weight: lighter;
+  padding-top: 20px; }
+
+/* line 8, /Applications/MAMP/htdocs/myya/assets/css/_afters.scss */
+h3:after {
+  content: "";
+  display: block;
+  text-align: center;
+  width: 100px;
+  height: 1px;
+  background-color: black;
+  filter: grayscale(90%);
+  margin-top: .3rem; }
+
+/* line 19, /Applications/MAMP/htdocs/myya/assets/css/_afters.scss */
+.fa {
+  color: #fff; }
+
+/* line 23, /Applications/MAMP/htdocs/myya/assets/css/_afters.scss */
+.all_headers, .doc-header {
+  height: 600px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center; }
+
+/* line 31, /Applications/MAMP/htdocs/myya/assets/css/_afters.scss */
+.all_headers_overlay, .doc-header .header-overlay {
+  padding-top: 150px;
+  height: inherit;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  opacity: 1; }
+
+/* line 39, /Applications/MAMP/htdocs/myya/assets/css/_afters.scss */
+.h3_nobtt {
+  border: none; }
+
+/* line 43, /Applications/MAMP/htdocs/myya/assets/css/_afters.scss */
+.three, .three-divs {
+  width: 100%;
+  height: 300px;
+  margin: 10px 50px; }
+
+/* line 49, /Applications/MAMP/htdocs/myya/assets/css/_afters.scss */
+.ones, .three-divs .div-1, .three-divs .div-2, .three-divs .div-3 {
+  width: 30%;
+  height: inherit;
+  padding: 80px 5px;
+  float: left; }
+
+/* line 56, /Applications/MAMP/htdocs/myya/assets/css/_afters.scss */
+.all_btns, .doc-header .header-overlay .btn-click {
+  width: 30%;
+  text-align: center;
+  margin: 0 auto; }
+
+/* line 6, /Applications/MAMP/htdocs/myya/assets/css/document.scss */
+.doc-header {
+  background-image: url(../../img/myya_doc.jpg); }
+  /* line 12, /Applications/MAMP/htdocs/myya/assets/css/document.scss */
+  .doc-header .header-overlay h3 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 35px; }
+  /* line 18, /Applications/MAMP/htdocs/myya/assets/css/document.scss */
+  .doc-header .header-overlay h3:after {
+    width: 0;
+    height: 0; }
+  /* line 21, /Applications/MAMP/htdocs/myya/assets/css/document.scss */
+  .doc-header .header-overlay h5 {
+    color: #fff; }
+  /* line 28, /Applications/MAMP/htdocs/myya/assets/css/document.scss */
+  .doc-header .header-overlay .btn-click button {
+    background-color: black;
+    color: #fff;
+    border: 2px solid #fff; }
+
+/* line 36, /Applications/MAMP/htdocs/myya/assets/css/document.scss */
+.three-divs {
+  margin-bottom: 50px; }
+  /* line 39, /Applications/MAMP/htdocs/myya/assets/css/document.scss */
+  .three-divs .div-1, .three-divs .div-2, .three-divs .div-3 {
+    margin-right: 20px;
+    text-align: center; }
+    /* line 44, /Applications/MAMP/htdocs/myya/assets/css/document.scss */
+    .three-divs .div-1 .fa, .three-divs .div-2 .fa, .three-divs .div-3 .fa {
+      width: 100px;
+      height: 100px;
+      color: black;
+      text-align: center;
+      margin: 0 auto;
+      font-size: 30px;
+      border: 1px solid black;
+      padding-top: 30px;
+      border-radius: 100px; }
+
+@media screen and (max-width: 600px) {
+  /* line 62, /Applications/MAMP/htdocs/myya/assets/css/document.scss */
+  .doc-header {
+    height: 450px;
+    background-position: center; }
+    /* line 65, /Applications/MAMP/htdocs/myya/assets/css/document.scss */
+    .doc-header .header-overlay {
+      padding-top: 20px; }
+      /* line 68, /Applications/MAMP/htdocs/myya/assets/css/document.scss */
+      .doc-header .header-overlay .btn-click {
+        width: 70%; }
+        /* line 71, /Applications/MAMP/htdocs/myya/assets/css/document.scss */
+        .doc-header .header-overlay .btn-click button {
+          margin-top: 40px; }
+  /* line 77, /Applications/MAMP/htdocs/myya/assets/css/document.scss */
+  .three-divs {
+    height: 800px;
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-right: 30px; }
+    /* line 83, /Applications/MAMP/htdocs/myya/assets/css/document.scss */
+    .three-divs .div-1, .three-divs .div-2, .three-divs .div-3 {
+      height: 250px;
+      width: 100%;
+      padding: 0;
+      margin: 0; }
+  /* line 89, /Applications/MAMP/htdocs/myya/assets/css/document.scss */
+  section.other-lorem {
+    margin-bottom: 50px; } }
+
+/*# sourceMappingURL=document.css.map */

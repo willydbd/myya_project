@@ -1,0 +1,136 @@
+@media screen and (min-width: 993px){
+    .navbar {
+        // font-size: small !important;
+        position: relative;
+
+        li.acc {
+            float: right;
+            position: absolute;
+            right: 0;
+            width: fit-content;
+            &:last-child {
+                right: 71px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px){
+    li.acc {
+        display: inline-block;
+        float: right;
+    }
+}
+
+#showSlide {
+    margin: 10px auto;
+    border-radius: 0; 
+    background-color: darkseagreen;
+    color: #fff;
+    transition: all .5s;
+
+    &:hover {
+        color: #fff;
+        background-color: darken(darkseagreen, 10%)
+    }
+}
+
+.learn-carousel {
+    width: 100vw;
+    height: 100vh;
+    min-height: 500px;
+    padding: 10px;
+    padding-bottom: 50px;
+    background-color: rgba(#000, .9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000000;
+    text-align: center;
+    display: none;
+
+    .close-btn {
+        position: absolute;
+        top: 00px;
+        right: 20px;
+        font-size: 33px;
+        color: #fff;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        display: block;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    img {
+        height: 100%;
+        width: auto;
+        margin: auto;
+    }
+
+    .counter {
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        width: 100%;
+        height: fit-content;
+        color: #fff;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .button {
+        display: block;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        background: transparent !important;
+        border: 1px solid #fff;
+        color: #fff;
+        height: 50px !important;
+        width: 50px !important;
+        line-height: 50px;
+        font-size: 22px;
+        border-radius: 50%;
+
+        &:first-child {
+            left: 20px;
+        }
+
+        &:last-child {
+            right: 20px;
+        }
+    }
+}
+
+#quiz {
+    @extend #showSlide;
+}
+
+.quiz {
+    width: 95%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(#000, .4);
+    padding: 50px 30px;
+
+    @media screen and (max-width: 992px){
+        padding: 30px 15px;
+    }
+
+    .options {
+        label {
+            font-size: 18px;
+
+            input[type=radio]{
+                margin-top: 7px;
+            }
+        }
+    }
+}

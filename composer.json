@@ -1,0 +1,12 @@
+{
+    "name": "abiodu/myya",
+    "authors": [
+        {
+            "name": "Azeez Abiodun",
+            "email": "iamhabbeboy@gmail.com"
+        }
+    ],
+    "require": {
+        "auth0/auth0-php": "~5.0"
+    }
+}

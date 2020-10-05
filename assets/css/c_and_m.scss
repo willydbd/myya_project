@@ -1,0 +1,365 @@
+$body-width: 100%;
+$default-height: 600px;
+$default-color: #fff;
+$default-margin: 20px;
+@import "_afters.scss";
+.cm-header {
+    //margin-top: -50px;
+//    height: $default-height;
+    width: $body-width;
+    background-image: url(../img/cleaning1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    .cm-overlay {
+        padding: 100px 0 150px;
+        height: inherit;
+        width: $body-width;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+        opacity: .9;
+        position: relative;
+        h5,
+        h3,
+        h2 {
+            color: $default-color;
+            font-weight: lighter;
+            padding: 0; 
+            margin: 0;
+        }
+        h3 {
+            padding-top: 20px;
+        }
+        h3:after {
+            width: 0px;
+        }
+        .fa {
+            font-size: 40px;
+            color: $default-color;
+//            margin-top: 130px;
+            cursor: pointer;
+            position: absolute;
+            bottom: 1rem;
+        }
+    }
+}
+
+.cm-started {
+    padding: 2rem 3.5rem;
+    h3 {
+        margin-bottom: 1rem;
+    }
+    .lorem {
+        text-align: center;
+    }
+}
+
+.cm-infos {
+    height: $default-height - 200;
+    width: $body-width;
+    margin-top: $default-margin +30;
+    margin-left: 40px;
+    //margin: 1% auto;
+    clear: none;
+    .cm-right {
+        height: $body-width;
+        width: 45%;
+        //margin-left: 30px;
+        background-image: url(../img/cleaning1.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: fixed;
+        float: left;
+    }
+    .cm-right-overlay {
+        padding: 100px 40px;
+        //line-height:
+        height: inherit;
+        width: $body-width;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+        opacity: .9;
+        .step-title,
+        .step-content {
+            color: $default-color;
+            text-align: center;
+            //padding: 50px auto;
+        }
+        .step-title:after {
+            content: "";
+            display: block;
+            text-align: center;
+            width: 100px;
+            height: 2px;
+            background-color: $default-color;
+            filter: grayscale(90%);
+            margin: 0 auto;
+        }
+        .fa {
+            margin-top: 50px;
+            font-size: 40px;
+            text-align: center;
+            margin-left: 130px;
+            cursor: pointer;
+        }
+    }
+    .cm-left {
+        height: $body-width;
+        width: 49%;
+        float: right;
+        clear: none;
+        padding-top: 80px;
+        //border: 1px solid black;
+        //padding-left: 50px;
+    }
+    .cleaning-infos {
+        color: black;
+    }
+    .ci-title {
+        font-size: 20px;
+        text-align: left;
+    }
+    .ci-title:after {
+        content: "";
+        display: block;
+        text-align: left;
+        width: 100px;
+        height: 2px;
+        background-color: black;
+        filter: grayscale(90%);
+        //margin: 0 auto;
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+    .rounded,
+    h5 {
+        padding: 0;
+        margin: 0;
+        //text-align: center;
+    }
+    .shift {
+        margin-bottom: 30px;
+    }
+    .rounded {
+        padding-top: 5px;
+        border: 1px solid black;
+        float: left;
+        //margin: auto 46%;
+        //margin-bottom: 20px;
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+        padding-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+.cm-testimonies {
+    width: $body-width;
+    margin-top: $default-margin;
+    background-image: url(../img/cleaning2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: $default-color;
+    h3 {
+        color: $default-color;
+    }
+    h3:after {
+        background-color: $default-color;
+        height: 2px;
+    }
+    .cmt-overlay {
+        @extend .cm-overlay;
+        height: inherit;
+        width: $body-width;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: .7;
+        padding: 2rem 0 3rem;
+    }
+    .cm-cust {
+        height: 150px;
+        width: calc(100% / 3);
+        float: left;
+        padding: 1rem 2rem;
+    }
+    .cust-name {
+        margin-top: 10px;
+        font-weight: bolder;
+    }
+}
+
+.cm-contact {
+    height: $default-height - 100;
+    width: $body-width;
+    text-align: center;
+    margin-bottom: 20px;
+    //padding-left: 70px;
+    input[type=text] {
+        width: 30%;
+        height: 50px;
+        float: left;
+        //margin: 0 auto;
+        margin-left: 200px;
+        border: #fff;
+        border-bottom: 1px solid black;
+        //padding-left: 50px;
+        text-align: center;
+        box-shadow: none;
+    }
+    input[type=text]:focus {
+        border: none;
+        background: transparent;
+        padding: 5px 60px;
+        transition: .1s ease-in-out;
+        border-bottom: 1px solid black;
+        text-align: justify;
+    }
+    input[type=email] {
+        width: 30%;
+        height: 50px;
+        float: right;
+        //margin: 0 auto;
+        margin-right: 200px;
+        border: #fff;
+        border-bottom: 1px solid black;
+        //padding-left: 50px;
+        text-align: center;
+        box-shadow: none;
+    }
+    input[type=email]:focus {
+        border: none;
+        background: transparent;
+        padding: 5px 60px;
+        transition: .1s ease-in-out;
+        border-bottom: 1px solid black;
+        text-align: justify;
+    }
+    textarea {
+        height: 200px;
+        width: 68%;
+        margin: 30px auto;
+        margin-top: 30px;
+        border: 0;
+        border: 1px solid black;
+    }
+    .cm-button {
+        height: 50px;
+        width: 68%;
+        margin: 30px auto;
+    }
+    button {
+        height: inherit;
+        width: $body-width;
+        background-color: #fff;
+        filter: grayscale(20%);
+        color: black;
+        border: 2px solid black;
+        font-weight: bolder;
+    }
+    button:hover {
+        background-color: black;
+        color: #fff;
+    }
+    .fa {
+        color: black;
+        text-align: center;
+        border: 2px solid black;
+        height: 50px;
+        width: 50px;
+        padding-top: 15px;
+        border-radius: 100%;
+        cursor: pointer;
+    }
+    .fa:hover {
+        color: #fff;
+        background-color: black;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    section.cm-header {
+        height: 400px;
+        .cm-overlay {
+            padding-top: 70px;
+            .cm-text {
+                .fa {
+                    padding: 0;
+                    margin-top: 90px;
+                }
+            }
+        }
+    }
+    .cm-started {
+        padding: 0;
+        margin: 0 auto;
+        h3 {
+            width: 80%;
+            //height: 50px;
+            padding-left: 60px;
+        }
+        .lorem {
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+    }
+    section.cm-infos {
+        height: $default-height;
+        width: $body-width;
+        .cm-right,
+        .cm-left {
+            height: 300px;
+            width: $body-width;
+            float: none;
+            padding: 0;
+            margin: 0;
+        }
+        .cm-right {
+            width: $body-width - 20%;
+            background-attachment: local;
+            background-size: cover;
+        }
+        .cm-left {
+            padding-top: 30px;
+            .cleaning-infos {
+                padding: 0;
+                margin-left: 0;
+                .ci-title {
+                    text-align: center;
+                    padding-right: 100px;
+                }
+                .ci-title:after {
+                    margin-left: 80px;
+                }
+            }
+        }
+    }
+    section.cm-testimonies {
+        height: $default-height;
+        width: $body-width;
+        .cmt-overlay {
+            padding: 0 20px;
+            h3 {
+                width: $body-width;
+            }
+            .cm-cust {
+                float: none;
+                height: 150px;
+                width: $body-width;
+            }
+        }
+    }
+    section.cm-contact {
+        form {
+            input[type=text],
+            input[type=email] {
+                float: none;
+                width: $body-width - 20%;
+                margin: 0 auto;
+                padding: 0;
+            }
+            textarea {
+                width: $body-width - 20%;
+            }
+        }
+    }
+}

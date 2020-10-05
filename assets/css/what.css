@@ -1,0 +1,219 @@
+/* line 1, /Applications/MAMP/htdocs/myya/assets/css/_afters.scss */
+h3 {
+  color: orange;
+  text-align: center;
+  font-weight: lighter;
+  padding-top: 20px; }
+
+/* line 8, /Applications/MAMP/htdocs/myya/assets/css/_afters.scss */
+h3:after {
+  content: "";
+  display: block;
+  text-align: center;
+  width: 100px;
+  height: 1px;
+  background-color: black;
+  filter: grayscale(90%);
+  margin-top: .3rem; }
+
+/* line 19, /Applications/MAMP/htdocs/myya/assets/css/_afters.scss */
+.fa {
+  color: #fff; }
+
+/* line 23, /Applications/MAMP/htdocs/myya/assets/css/_afters.scss */
+.all_headers, .what-header {
+  height: 600px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center; }
+
+/* line 31, /Applications/MAMP/htdocs/myya/assets/css/_afters.scss */
+.all_headers_overlay, .what-header .header-overlay {
+  padding-top: 150px;
+  height: inherit;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  opacity: 1; }
+
+/* line 39, /Applications/MAMP/htdocs/myya/assets/css/_afters.scss */
+.h3_nobtt {
+  border: none; }
+
+/* line 43, /Applications/MAMP/htdocs/myya/assets/css/_afters.scss */
+.three, .three-divs {
+  width: 100%;
+  height: 300px;
+  margin: 10px 50px; }
+
+/* line 49, /Applications/MAMP/htdocs/myya/assets/css/_afters.scss */
+.ones, .three-divs .div-1,
+.three-divs .div-2,
+.three-divs .div-3 {
+  width: 30%;
+  height: inherit;
+  padding: 80px 5px;
+  float: left; }
+
+/* line 56, /Applications/MAMP/htdocs/myya/assets/css/_afters.scss */
+.all_btns, .what-header .header-overlay .btn-click {
+  width: 30%;
+  text-align: center;
+  margin: 0 auto; }
+
+/* line 6, /Applications/MAMP/htdocs/myya/assets/css/what.scss */
+.what-header {
+  background-image: url(../../img/learning_picture.jpg); }
+  /* line 11, /Applications/MAMP/htdocs/myya/assets/css/what.scss */
+  .what-header .header-overlay h3 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 35px; }
+  /* line 16, /Applications/MAMP/htdocs/myya/assets/css/what.scss */
+  .what-header .header-overlay h3:after {
+    width: 0;
+    height: 0; }
+  /* line 20, /Applications/MAMP/htdocs/myya/assets/css/what.scss */
+  .what-header .header-overlay h5 {
+    color: #fff; }
+  /* line 26, /Applications/MAMP/htdocs/myya/assets/css/what.scss */
+  .what-header .header-overlay .btn-click button {
+    background-color: black;
+    color: #fff;
+    border: 2px solid #fff; }
+
+/* line 35, /Applications/MAMP/htdocs/myya/assets/css/what.scss */
+.three-divs {
+  margin-bottom: 50px; }
+  /* line 38, /Applications/MAMP/htdocs/myya/assets/css/what.scss */
+  .three-divs .div-1,
+  .three-divs .div-2,
+  .three-divs .div-3 {
+    margin-right: 20px;
+    text-align: center; }
+    /* line 45, /Applications/MAMP/htdocs/myya/assets/css/what.scss */
+    .three-divs .div-1 .fa,
+    .three-divs .div-2 .fa,
+    .three-divs .div-3 .fa {
+      width: 100px;
+      height: 100px;
+      color: black;
+      text-align: center;
+      margin: 0 auto;
+      font-size: 30px;
+      border: 1px solid black;
+      padding-top: 30px;
+      border-radius: 100px; }
+
+/* line 60, /Applications/MAMP/htdocs/myya/assets/css/what.scss */
+.other-lorem {
+  width: 100%;
+  text-align: justify;
+  padding: 40px 1rem 5rem; }
+  /* line 64, /Applications/MAMP/htdocs/myya/assets/css/what.scss */
+  .other-lorem h3 {
+    margin-bottom: 1rem; }
+  /* line 67, /Applications/MAMP/htdocs/myya/assets/css/what.scss */
+  .other-lorem .lorem-header {
+    width: 70%;
+    margin: 0 auto; }
+
+/* line 73, /Applications/MAMP/htdocs/myya/assets/css/what.scss */
+.four-divs {
+  width: 100%;
+  color: #fff;
+  background-color: darkseagreen;
+  padding: 2rem 0; }
+  /* line 78, /Applications/MAMP/htdocs/myya/assets/css/what.scss */
+  .four-divs:after {
+    content: '';
+    display: table;
+    clear: both; }
+  /* line 83, /Applications/MAMP/htdocs/myya/assets/css/what.scss */
+  .four-divs .first-div,
+  .four-divs .second-div,
+  .four-divs .third-div,
+  .four-divs .fourth-div {
+    height: inherit;
+    width: 25%;
+    color: #fff;
+    float: left;
+    text-align: center;
+    padding: 10px; }
+    /* line 93, /Applications/MAMP/htdocs/myya/assets/css/what.scss */
+    .four-divs .first-div h3,
+    .four-divs .second-div h3,
+    .four-divs .third-div h3,
+    .four-divs .fourth-div h3 {
+      font-size: 20px;
+      color: #fff; }
+    /* line 97, /Applications/MAMP/htdocs/myya/assets/css/what.scss */
+    .four-divs .first-div h3:after,
+    .four-divs .second-div h3:after,
+    .four-divs .third-div h3:after,
+    .four-divs .fourth-div h3:after {
+      width: 0;
+      height: 0; }
+    /* line 101, /Applications/MAMP/htdocs/myya/assets/css/what.scss */
+    .four-divs .first-div p,
+    .four-divs .second-div p,
+    .four-divs .third-div p,
+    .four-divs .fourth-div p {
+      text-align: justify;
+      font-size: 15px;
+      color: #fff; }
+    /* line 106, /Applications/MAMP/htdocs/myya/assets/css/what.scss */
+    .four-divs .first-div button,
+    .four-divs .second-div button,
+    .four-divs .third-div button,
+    .four-divs .fourth-div button {
+      height: 50px;
+      width: 180px;
+      background-color: transparent;
+      border: 1px solid #fff;
+      color: #fff; }
+    /* line 113, /Applications/MAMP/htdocs/myya/assets/css/what.scss */
+    .four-divs .first-div button:hover,
+    .four-divs .second-div button:hover,
+    .four-divs .third-div button:hover,
+    .four-divs .fourth-div button:hover {
+      background-color: black;
+      color: #fff;
+      font-weight: bolder;
+      border: none; }
+
+@media screen and (max-width: 600px) {
+  /* line 123, /Applications/MAMP/htdocs/myya/assets/css/what.scss */
+  .what-header {
+    height: 450px;
+    background-position: center; }
+    /* line 126, /Applications/MAMP/htdocs/myya/assets/css/what.scss */
+    .what-header .header-overlay {
+      padding-top: 20px; }
+      /* line 128, /Applications/MAMP/htdocs/myya/assets/css/what.scss */
+      .what-header .header-overlay .btn-click {
+        width: 70%; }
+        /* line 130, /Applications/MAMP/htdocs/myya/assets/css/what.scss */
+        .what-header .header-overlay .btn-click button {
+          margin-top: 40px; }
+  /* line 136, /Applications/MAMP/htdocs/myya/assets/css/what.scss */
+  .three-divs {
+    height: 800px;
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-right: 30px; }
+    /* line 143, /Applications/MAMP/htdocs/myya/assets/css/what.scss */
+    .three-divs .div-1,
+    .three-divs .div-2,
+    .three-divs .div-3 {
+      height: 250px;
+      width: 100%;
+      padding: 0;
+      margin: 0; }
+  /* line 152, /Applications/MAMP/htdocs/myya/assets/css/what.scss */
+  section.other-lorem {
+    margin-bottom: 50px; } }
+
+/*# sourceMappingURL=what.css.map */
