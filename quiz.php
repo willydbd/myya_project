@@ -1,6 +1,6 @@
 <?php
-session_start();
-if (!isset($_SESSION["login"])) header("Location: /?attention='You must be logged in to play games'");
+// session_start();
+// if (!isset($_SESSION["login"])) header("Location: /?attention='You must be logged in to play games'");
 require_once("assets/includes/nav.php");
 ?>
 <script src="assets/js/quiz.json"></script>
@@ -120,7 +120,7 @@ require_once("assets/includes/footer.php");
                 text += `<i>Answer: ${quiz[questions[i]].answer}</i><br>`;
             }
             document.getElementById('solution').innerHTML= text;
-            
+
             document.getElementById('score').innerText = score;
             $('.modal#scoreModal').modal('show');
         }

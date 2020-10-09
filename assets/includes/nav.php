@@ -68,7 +68,7 @@ $ver = "1.2.4";
                     <div class="navbar-left">
                         <div class="collapse navbar-collapse">
                             <ul class="nav navbar-nav">
-                                <li class="active"><a href="/games.php">Learning</a></li>
+                                <li class="active"><a href="games.php">Learning</a></li>
                                 <li><a href="#" data-target="#soon-modal" data-toggle="modal">Publishing</a></li>
                                 <!--                        <li><a href="">Care</a></li>-->
                                 <li><a href="#" data-target="#soon-modal" data-toggle="modal">Store</a></li>
@@ -79,8 +79,8 @@ $ver = "1.2.4";
          What's up
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="/new_what.php" >About Us</a>
-          <a class="dropdown-item" href="/gallery.php">Gallery</a>
+          <a class="dropdown-item" href="new_what.php" >About Us</a>
+          <a class="dropdown-item" href="gallery.php">Gallery</a>
         </div>
       </li>
                                 <li><a href="#" data-target="#soon-modal" data-toggle="modal">Properties</a></li>

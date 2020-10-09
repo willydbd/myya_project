@@ -1,6 +1,7 @@
-<?php ob_start();
-session_start();
-if (!isset($_SESSION["login"])) header("Location: /?attention=You must be logged in to play games");
+<?php
+// ob_start();
+// session_start();
+// if (!isset($_SESSION["login"])) header("Location: /?attention=You must be logged in to play games");
 require_once "assets/includes/nav.php";
 
 ?>
@@ -11,7 +12,7 @@ require_once "assets/includes/nav.php";
     <div class="game-cn">
         <div class="game-welcome">
             <h3>Welcome To Myya Map Games</h3>
-            <div class="text-center"><a href="/quiz.php" class="btn btn-lg" id="quiz">PLAY MACARDS QUIZ</a></div>
+            <div class="text-center"><a href="quiz.php" class="btn btn-lg" id="quiz">PLAY MACARDS QUIZ</a></div>
         </div>
         <div class="game-container" style="margin: 5px auto !important;">
             <div class="canvas">
